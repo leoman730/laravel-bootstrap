@@ -15,3 +15,12 @@ Route::get('/', function()
 {
 	return View::make('hello');
 });
+
+
+Route::get('example/login', function(){
+   return View::make('example.login');
+});
+
+Route::post('example/login', function() {
+    return 'welcome: ' . Input::get('username');
+});
