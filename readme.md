@@ -1,3 +1,11 @@
+## Post Install
+
+Run packages
+```bash
+composer update
+```
+
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
